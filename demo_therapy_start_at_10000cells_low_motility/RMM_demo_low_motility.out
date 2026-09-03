@@ -1,0 +1,205 @@
+SLURM_JOBID = 54400853
+SLURM_JOB_NODELIST = cn067
+SLURM_NNODES = 1
+SLURMTMPDIR = 
+working directory = /nemo/lab/batesp/working/Xiao/particleCell_Simulations/2026/clonal_dynamics_codes_test_runs/random_mutation_model/demo_therapy_start_at_10000cells_low_motility
+
+Currently Loaded Modules:
+  1) GCCcore/8.3.0                 5) CUDA/10.1.243-GCC-8.3.0
+  2) zlib/1.2.11-GCCcore-8.3.0     6) gcccuda/2019b
+  3) binutils/2.32-GCCcore-8.3.0   7) cuDNN/7.6.4.38-gcccuda-2019b
+  4) GCC/8.3.0
+
+ 
+
+NPROCS=2
+Submitting jobs with srun ...
+... init Group ID = 1 ...
+... init Group ID = 1 ...
+with scale_vis = 1
+with scale_vis = 1
+     scale_adh = 1
+     scale_adh = 1
+     scale_mit = 1
+     scale_sen = 1
+     scale_dif = 1
+     scale_mit = 1
+     scale_sen = 1
+     scale_dif = 1
+
+ ----- pid = 666239 ----- t_now = 0 -----
+Group_id: 1; Group_size: 1 cells
+--- Summary of Virtual Tumour ---
+
+ ----- pid = 666240 ----- t_now = 0 -----
+Group_id: 1; Group_size: 1 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+8.88816	9.02305	0	1
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+8.88816	9.02305	0	1
+... writing cell dynamics under therapy ...
+... writing cell dynamics under therapy ...
+done !
+done !
+
+ ----- pid = 666239 ----- t_now = 24 -----
+Group_id: 1; Group_size: 4 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+26.2797	52.4045	0	4
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 24 -----
+Group_id: 1; Group_size: 4 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+26.2797	52.4045	0	4
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 48 -----
+Group_id: 1; Group_size: 27 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+116.863	169.511	0	27
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 48 -----
+Group_id: 1; Group_size: 27 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+116.863	169.511	0	27
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 72 -----
+Group_id: 1; Group_size: 154 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+335.834	317.843	0	154
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 72 -----
+Group_id: 1; Group_size: 154 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+335.834	317.843	0	154
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 96 -----
+Group_id: 1; Group_size: 790 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+720.856	680.553	0	790
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 96 -----
+Group_id: 1; Group_size: 790 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+720.856	680.553	0	790
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 120 -----
+Group_id: 1; Group_size: 3233 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+1282.23	1219.75	0	3233
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 120 -----
+Group_id: 1; Group_size: 3233 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+1282.23	1219.75	0	3233
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 144 -----
+Group_id: 1; Group_size: 7620 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+1855.23	1801.4	0	7620
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 144 -----
+Group_id: 1; Group_size: 7620 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+1855.23	1801.4	0	7620
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 168 -----
+Group_id: 1; Group_size: 7802 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+2314.49	2222.81	0	7802
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 168 -----
+Group_id: 1; Group_size: 7802 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+2314.49	2222.81	0	7802
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 192 -----
+Group_id: 1; Group_size: 7275 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+2630.45	2271.88	0	7275
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 192 -----
+Group_id: 1; Group_size: 7275 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+2630.45	2271.88	0	7275
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 216 -----
+Group_id: 1; Group_size: 14836 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+3109.85	2468.41	0	14836
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 216 -----
+Group_id: 1; Group_size: 14836 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+3109.85	2468.41	0	14836
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666239 ----- t_now = 240 -----
+Group_id: 1; Group_size: 25758 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+3720.17	3021.66	0	25758
+... writing cell dynamics under therapy ...
+done !
+
+ ----- pid = 666240 ----- t_now = 240 -----
+Group_id: 1; Group_size: 25758 cells
+--- Summary of Virtual Tumour ---
+DIM_X (um) 	 DIM_Y (um) 	 DIM_Z (um) 	 NUM_CELL
+3720.17	3021.66	0	25758
+... writing cell dynamics under therapy ...
+done !
+Done!
