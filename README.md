@@ -31,7 +31,7 @@ To make the computational cost manageable (under 3 hours of walltime using 4 CPU
 Note that the following applies to Linux environment on a High-Performance-Computing cluster at the Francis Crick Institute. 
 Information about `uname --kernel-name --kernel-release --machine` returns `Linux 4.18.0-553.126.1.el8_10.x86_64 x86_64` (as of August 2026).
 
-1. Compile the code via `make -j` in a command line terminal. Successful compilation should generate an executible called `virtualTumour` 
+1. Compile the code via `make -j` in a command line terminal. If `virtualTumour` already exists before compilation, run `make clean` first. Successful compilation should generate an executible called `virtualTumour`. 
 
 2. Run a simulation. If on a local device, execute `./virtualTumour`; If on an HPC using the SLURM job submission system, execute `sbatch slurm-sumbit-particleCell.sh` (MAKE SURE to modfiy the email address for receiving HPC job information! Also update other job configuration as the user sees fit.)
 
